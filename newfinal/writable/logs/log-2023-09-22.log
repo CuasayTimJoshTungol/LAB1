@@ -1,0 +1,36 @@
+CRITICAL - 2023-09-22 09:54:01 --> Undefined variable $prod
+in APPPATH\Views\pedit.php on line 20.
+ 1 APPPATH\Views\pedit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\Laragon\\laragon\\www\\newfinal\\app\\Views\\pedit.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Laragon\\laragon\\www\\newfinal\\app\\Views\\pedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pedit', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('pedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->edit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Laragon\\laragon\\www\\newfinal\\public\\index.php')
+CRITICAL - 2023-09-22 09:54:54 --> Undefined variable $prod
+in APPPATH\Views\pedit.php on line 20.
+ 1 APPPATH\Views\pedit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\Laragon\\laragon\\www\\newfinal\\app\\Views\\pedit.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Laragon\\laragon\\www\\newfinal\\app\\Views\\pedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pedit', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('pedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Laragon\\laragon\\www\\newfinal\\public\\index.php')
+CRITICAL - 2023-09-22 09:55:48 --> Undefined variable $prod
+in APPPATH\Views\pedit.php on line 20.
+ 1 APPPATH\Views\pedit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\Laragon\\laragon\\www\\newfinal\\app\\Views\\pedit.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Laragon\\laragon\\www\\newfinal\\app\\Views\\pedit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pedit', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('pedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->edit('14')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Laragon\\laragon\\www\\newfinal\\public\\index.php')
